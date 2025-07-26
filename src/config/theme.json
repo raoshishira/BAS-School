@@ -12,7 +12,9 @@
       "text_color": {
         "text": "#1f3068ff",
         "text-dark": "#1f3068ff",
-        "text-light": "#1f3068ff"
+        "text-light": "#1f3068ff",
+        "text-white": "#ffffff"
+
       }
     }
   },

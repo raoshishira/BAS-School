@@ -1,89 +1,88 @@
 ---
 title: "About"
-page_title: "About our company"
-meta_title: ""
-description: ""
+page_title: "BAS International School – Shaping Tomorrow’s Leaders"
+meta_title: "BAS International School"
+description: "At BAS International School, we don’t just educate — we empower. Located in Muddebihal, Vijayapura, our school blends academic excellence with strong moral values, leadership development, and future-focused learning. Whether your child is a day scholar or part of our residential campus, we nurture each student with a well-rounded foundation for success in IIT-JEE, NEET Foundation, and Junior IAS programs. Our mission is to ignite curiosity, build confidence, and equip students with the skills they need to thrive in a fast-evolving world. With experienced faculty, a value-driven approach, and a supportive environment, we prepare young minds to lead with integrity and purpose."
 image: ""
 buttons:
-  - label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+  - label: Know Our Vision
+    link: "#about1"
     enable: true
-  - label: Learn More
-    link: "#"
+  - label: Our Team
+    link: "#about2"
     outline: true
     enable: true
 
 # counter
 counter:
-  - name: "Customers"
-    number: 25
+  - name: "Students Per Teacher"
+    number: 20
     measurement: M
     color: "#A3A1FB"
-  - name: "Customers"
-    number: 440
+  - name: "Plus Acre Campus"
+    number: 5
     measurement: M
     color: "#5EE2A0"
-  - name: "Customers"
-    number: 50
+  - name: "Plus Activities"
+    number: 20
     measurement: K
     color: "#FE6019"
-  - name: "Customers"
-    number: 20
+  - name: "Tolerence for Bullying"
+    number: 0
     measurement: K
     color: "#FEC163"
 
 # Gallery
 gallery:
-  title: We started with one single goal Empower entrepreneurs
+  title: Built with Vision. Rooted in Purpose.
   images:
-    - "/images/about/gallery-img-1.png"
-    - "/images/about/gallery-img-3.png"
-    - "/images/about/gallery-img-2.png"
+    - "/images/about/gallery1.webp"
+    - "/images/about/gallery2.webp"
+    - "/images/about/gallery3.webp"
 
 ## our works
 features:
-  title: The six core work <br /> drive everything do
+  title: Our Six Core Principles That Drive Everything We Do
   button:
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    label: Value Based Education
+    link: "#"
     enable: true
   features_list:
-    - title: Accessibility
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Empowerement
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Excellence
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
-    - title: Innovation
-      content: Nulla porttitor acmsan tinci dunt. posuere cubilia Cudfrae Donec velit neque, autor sit amet aliuam vel
+    - title: Academic Excellence
+      content: We nurture curiosity and critical thinking through a rigorous curriculum.
+    - title: Innovative Learning
+      content: We integrate technology and creativity in classrooms to boost engagement.
+    - title: Character Building
+      content: Teaching ethics, empathy, and leadership from the very start that develops character.
+    - title: Strong Foundation
+      content: Early foundation for NEET, JEE & IAS with expert mentors and smart tools.
+    - title: Holistic Development
+      content: Focus on sports, arts, and values to shape well-rounded individuals.
+    - title: Safe Campus
+      content: A nurturing and secure environment for every child to thrive and grow.
 
 ## members
 members:
   title: This is who we are
   description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
   member_list:
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
-      image: "/images/users/user-3.png"
-    - name: Eleanor Pena
-      field: Co-founder & COO
-      image: "/images/users/user-1.png"
-    - name: Bukiakta Bansalo
-      field: Product Manager
-      image: "/images/users/user-2.png"
-    - name: Ortrin Okaster
-      field: Software Engineer
-      image: "/images/users/user-3.png"
+    - name: Name
+      field: Designation
+      image: "/images/users/Teacher.png"
+    - name: Name
+      field: Designation
+      image: "/images/users/Teacher.png"
+    - name: Name
+      field: Designation
+      image: "/images/users/Teacher.png"
+    - name: Name
+      field: Designation
+      image: "/images/users/Teacher.png"
+    - name: Name
+      field: Designation
+      image: "/images/users/Teacher.png"
+    - name: Name
+      field: Designation
+      image: "/images/users/Teacher.png"
 ---
-
-Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta. Lorem
+At BAS International School, we don’t just educate — we empower. Located in Muddebihal, Vijayapura, our school blends academic excellence with strong moral values, leadership development, and future-focused learning. Whether your child is a day scholar or part of our residential campus, we nurture each student with a well-rounded foundation for success in IIT-JEE, NEET Foundation, and Junior IAS programs. Our mission is to ignite curiosity, build confidence, and equip students with the skills they need to thrive in a fast-evolving world. With experienced faculty, a value-driven approach, and a supportive environment, we prepare young minds to lead with integrity and purpose.

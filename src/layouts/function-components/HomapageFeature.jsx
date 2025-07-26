@@ -9,7 +9,7 @@ const HomapageFeature = ({ feature_list }) => {
         return (
           <div
             key={i}
-            className="flex flex-col justify-between rounded-lg bg-white p-5 shadow-lg"
+            className="flex flex-col justify-between rounded-lg bg-white p-5 shadow-lg transition-all duration-200 hover:shadow-[0px_5px_30px_rgba(31,48,104,0.4)] hover:-translate-y-1"
           >
             <div>
               <h3 className="h4 text-xl lg:text-2xl">{item.title}</h3>

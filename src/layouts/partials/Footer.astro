@@ -13,7 +13,7 @@ const { copyright, location, email, phone, footer_description } = config.params;
   <div class="container">
     <div class="gx-5 row pb-10 pt-[52px]">
       <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <Logo />
+        <Logo class="mb-4"/>
         <p class="mt-6">
           {footer_description}
         </p>
@@ -39,8 +39,17 @@ const { copyright, location, email, phone, footer_description } = config.params;
       </div>
       <div class="col-12 mt-12 md:col-6 lg:col-3">
         <h6>Location & Contact</h6>
-        <ul>
-          <li class="mb-2">{location}</li>
+          <ul>
+          <li class="mb-2">
+            <a
+              class="hover:text-primary hover:underline"
+              href="https://maps.app.goo.gl/2CLjcwGoVLFqscdNA"
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+              {location}
+              </a>
+          </li>
           <li class="mb-2">
             <a class="mb-2 hover:text-primary" href={`mailto:${email}`}
               >{email}</a

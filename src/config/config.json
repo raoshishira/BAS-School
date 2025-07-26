@@ -5,9 +5,9 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/hero_image.png",
-    "logo": "/images/hero_image.png",
-    "logo_width": "63",
-    "logo_height": "82",
+    "logo": "/images/logo_nav.png",
+    "logo_width": "150",
+    "logo_height": "60",
     "logo_text": "BAS International School"
   },
 
