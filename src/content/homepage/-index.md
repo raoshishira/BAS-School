@@ -1,131 +1,95 @@
 ---
 banner:
-  title: "Scale design & dev operations with Avocode Enterprise"
-  content: "A fully integrated suite of authentication & authoriz products, Stytch’s platform removes the headache of."
-  image: /images/banner-img.png
+  title: "Welcome to BAS International School"
+  content: "CLasses 1 to 8 | JEE & NEET Foundation | Juior IAS Program"
+  image: /images/Hero.webp
   button:
     enable: true
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    label: Know More
+    link: "/about"
 
 ##key features
 key_features:
-  title: "The Highlighting Part Of Our Solution"
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: "Why Choose Us"
+  description: Our Expert Faculty, world-class infrastructure, student-centric approach are one of the several reasons to choose BAS International School.
   feature_list:
-    - icon: "map" #icon package react-feather-icon
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "lock" #icon package react-feather-icon
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link" #icon package react-feather-icon
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell" #icon package react-feather-icon
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor" #icon package react-feather-icon
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map" #icon package react-feather-icon
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "link" #icon package react-feather-icon
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "bell" #icon package react-feather-icon
-      title: Sound Amplifier
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "map" #icon package react-feather-icon
-      title: Smart Reply
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - icon: "monitor" #icon package react-feather-icon
-      title: Live Caption
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    - icon: "BookOpen" #icon package react-feather-icon
+      title: Foundation Course
+      content: NEET and JEE prep from early school years.
+    - icon: "Target" #icon package react-feather-icon
+      title: Junior IAS
+      content: IAS foundation starts from Grade 6 onwards.
+    - icon: "Users" #icon package react-feather-icon
+      title: Dual Modes
+      content: Day scholar and residential options available.
+    - icon: "Activity" #icon package react-feather-icon
+      title: Holistic Growth
+      content: Focus on academics, values, and life skills.
+    - icon: "Monitor" #icon package react-feather-icon
+      title: Modern Campus
+      content: Smart classrooms and state-of-the-art facilities.
+    - icon: "UserCheck" #icon package react-feather-icon
+      title: Expert Faculty
+      content: Experienced, trained teachers for every subject.
+    - icon: "Layers" #icon package react-feather-icon
+      title: Small Batches
+      content: Personalized attention in every classroom.
+    - icon: "Edit3" #icon package react-feather-icon
+      title: Activity-Based
+      content: Learning through activities, not just textbooks.
 
 #service
 service:
   homepage_tab:
-    title: Prevent failure from to impacting your reputation
-    description: Our platform helps you build secure onboarding authentication experiences that retain and engage your users. We build the infrastructure, you can.
+    title: Nurturing Future Leaders with a Strong Foundation
+    description: Empowering students with knowledge, discipline, and a vision for success.
     tab_list:
-      - title: Habit building essential choose habit
-        icon: "lock" #icon package react-feather-icon
-        image: "/images/sells-by-country.png"
-      - title: Get an overview of Habit Calendars.
-        icon: "clock" #icon package react-feather-icon
-        image: "/images/collaboration.png"
-      - title: Start building with Habitify platform
-        icon: "bell" #icon package react-feather-icon
-        image: "/images/sells-by-country.png"
-
+      - title: Global-Ready Curriculum
+        icon: "Globe" #icon package react-feather-icon
+        image: "/images/globallearning.webp"
+      - title: Safe and Secure Campus
+        icon: "Shield" #icon package react-feather-icon
+        image: "/images/safety.webp"
+      - title: Strong Moral Foundation
+        icon: "Heart" #icon package react-feather-icon
+        image: "/images/moral.webp"
+        
   our_service:
-    - title: Accept payments any country in this whole universe
-      desctiption: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-      image: "/images/collaboration.png"
+    - title: Academic Excellence, Rooted in Discipline
+      description: Shaping students with strong fundamentals, habits, and results.
+      image: "/images/services.webp"
       list:
-        - Supporting more than 119 country world
-        - Open transaction with more than currencies
-        - Customer Service with 79 languages
-    - title: Accountability that works for you
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+        - Balanced timetable with study and activity periods.
+        - Frequent tests and feedback to track progress.
+        - Guided study hours with teacher assistance.
+    - title: Accountability That Shapes Success
+      description: Structured schedules, regular assessments, and parent updates keep students focused.
       video:
-        thumbnail: "/images/intro-thumbnail.png"
-        video_id: "g3-VxLQO7do"
+        thumbnail: "/images/thumbnail.webp"
+        video_id: "meL6W68xgrc"
       button:
         enable: true
-        label: Know About Us
-        link: "#"
+        label: Talk to Our Team
+        link: "/contact"
 
 #testimonial
 testimonial:
-  title: Our customers have nice things to say about us
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi egestas Werat viverra id et aliquet. vulputate egestas sollicitudin.
+  title: Voices of Trust and Transformation
+  description: Students thrive and parents feel confident — hear what our community says about BAS International School.
   testimonial_list:
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-6.png"
-      organization: meta limited
-      rating: four
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-2.png"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-3.png"
-      organization: meta limited
+    - author: Aanya R
+      avatar: "/images/users/Student.png"
+      organization: Grade 7
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-4.png"
-      organization: meta limited
+      content: BAS makes learning fun! The activities and foundation classes help me understand science and maths better.
+    - author: Nikhil M
+      avatar: "/images/users/Student.png"
+      organization: Grade 6 (Residential)
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-1.png"
-      organization: meta limited
-      rating: three
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
+      content: I love the hostel life! Teachers are always there to guide us — even during study hours.
+    - author: Priya Deshpande
+      avatar: "/images/users/Parent.png"
+      organization: Parent
       rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
-    - author: David Cameron
-      avatar: "/images/users/user-5.png"
-      organization: meta limited
-      rating: five
-      content: Our platform helps build secure onboarding authentica experiences & engage your users. We build .
+      content: We chose BAS for its discipline and NEET foundation. My child is more focused and confident now.
 ---

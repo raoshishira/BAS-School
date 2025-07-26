@@ -1,14 +1,14 @@
 {
   "site": {
-    "title": "Pinwheel Astro",
-    "base_url": "https://pinwheel-astro.vercel.app",
+    "title": "BAS International School",
+    "base_url": "https://basinternationalschool.com",
     "base_path": "/",
     "trailing_slash": false,
-    "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_width": "147",
-    "logo_height": "31",
-    "logo_text": "Pinwheel"
+    "favicon": "/images/hero_image.png",
+    "logo": "/images/hero_image.png",
+    "logo_width": "63",
+    "logo_height": "82",
+    "logo_text": "BAS International School"
   },
 
   "settings": {
@@ -17,26 +17,26 @@
   },
 
   "call_to_action": {
-    "title": "Helping teams in the world with focus",
-    "description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
+    "title": "Empowering Young Minds for a Brighter Tomorrow",
+    "description": "At BAS International School, we go beyond academics to nurture confidence, character, and competence. With a focus on strong values, expert faculty, and a future-ready foundation, we prepare students to lead with purpose in a rapidly changing world.",
     "button": {
-      "label": "Download The Theme",
-      "link": "https://themefisher.com/astro-themes/pinwheel-astro"
+      "label": "Know More",
+      "link": "/about"
     }
   },
 
   "params": {
-    "footer_description": "Lorem ipsum dolor sit sed dmi amet, consectetur adipiscing. Cdo tellus, sed condimentum volutpat.",
-    "email": "info@andromeda.io",
-    "location": "2118 Thornridge Cir. Syracuse, Connecticut 35624",
-    "phone": "+704-555-0127",
+    "footer_description": "BAS International School | Day Scholar and Residential | IIT-JEE & NEET Foundation | Junior IAS",
+    "email": "info.basinternationalschool@gmail.com",
+    "location": "Almatti Road, Muddebihal (T), Vijayapura - 586212",
+    "phone": "+91 9035 054 453",
     "contact_form_action": "#",
-    "copyright": "Copyright © 2025 a theme by [Themefisher](https://themefisher.com)"
+    "copyright": "Developed and Maintained by [Think Unlimited](https://thinkunlimited.in)"
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
-    "meta_image": "/images/og-image.png",
-    "meta_description": "pinwheel astro"
+    "meta_author": "BAS Education Society",
+    "meta_image": "/images/hero_image.png",
+    "meta_description": "BAS International School"
   }
 }
