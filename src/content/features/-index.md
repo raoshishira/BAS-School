@@ -1,67 +1,63 @@
 ---
-title: Features
-meta_title: ""
-description: ""
-image: ""
+title: Amenities
+meta_title: "Amenities & Programs | BAS International School, Muddebihal"
+description: "Discover the modern amenities, residential facilities, and academic programs that make BAS International School a unique space for learning and growth. Designed to support NEET/IIT aspirants in a safe, structured environment."
+image: "/images/features/amenities1.webp"
 banner:
-  title: Connects with all your other tools to create a smooth experience.
-  content: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed magna dictum porta.
-  image: "/images/features-banner-img.png"
+  title: A World-Class Campus with World-Class Programs
+  content: At BAS International School, students learn in an environment designed for excellence. Our campus brings together state-of-the-art facilities, integrated coaching, and a vibrant boarding experience — all guided by experienced educators who nurture both academic and personal growth.
+  image: "/images/features/amenities1.webp"
   button:
-    label: Download The Theme
-    link: "https://themefisher.com/astro-themes/pinwheel-astro"
+    label: Programs & Facilities
+    link: "#featurestab"
     enable: true
 project_management:
-  title: Build collaborative workspaces <br /> for your team
-  content: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. <br /> Mauris pellentesque nec, egestas non nisi. Cras ultricies .
+  title: Purpose-Built Learning Spaces <br /> for Every Student 
+  content: At BAS International School, our classrooms, labs, and study areas are designed to foster collaboration, critical thinking, and academic excellence. Whether it’s preparing for NEET/IIT or working on group projects, students thrive in structured, tech-enabled environments.
 
   management:
-    title: Project Management
+    title: Our Offerings & Amenities
     projects:
-      - title: Reduce friction
-        content: Encourage frequent & timely recognition integrating with communication tools
-        icon: lock #icon package react-feather-icon
-      - title: Reduce friction
-        content: Encourage frequent & timely recognition integrating with communication tools
-        icon: tv #icon package react-feather-icon
-      - title: Reduce friction
-        content: Encourage frequent & timely recognition integrating with communication tools
-        icon: tool #icon package react-feather-icon
-      - title: Reduce friction
-        content: Encourage frequent & timely recognition integrating with communication tools
-        icon: lock #icon package react-feather-icon
-      - title: Reduce friction
-        content: Encourage frequent & timely recognition integrating with communication tools
-        icon: tv #icon package react-feather-icon
-      - title: Reduce friction
-        content: Encourage frequent & timely recognition integrating with communication tools
-        icon: tool #icon package react-feather-icon
+      - title: NEET & JEE Coaching
+        content: Integrated classroom programs for competitive exams, led by expert faculty.
+        icon: book #icon package react-feather-icon
+      - title: Digital Classrooms
+        content: Smart boards, high-speed internet, and interactive tools for modern learning.
+        icon: monitor #icon package react-feather-icon
+      - title: Spacious Labs
+        content: Fully equipped Physics, Chemistry & Biology labs supporting practical learning.
+        icon: cpu #icon package react-feather-icon
+      - title: Safe Transport
+        content: GPS-enabled buses with trained drivers for hassle-free daily commutes.
+        icon: truck #icon package react-feather-icon
+      - title: Sports & Recreation
+        content: Dedicated sports zones, indoor games, and weekly fitness activities.
+        icon: activity #icon package react-feather-icon
+      - title: Residential Campus
+        content: Separate hostels for boys and girls, with 24x7 security and staff support.
+        icon: home #icon package react-feather-icon
   feature_service:
-    title: Accept payments from devices any country in this universe
-    description: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-    image: "/images/features/feature-img-1.png"
+    title: Shaping Global Minds for a Borderless Future
+    description: At BAS International School, we nurture students to become confident global citizens through world-class education, cultural exchange, and future-ready skills.
+    image: "/images/features/amenities2.webp"
     list:
-      - Supporting more than 119 country world
-      - Open transaction with more than currencies
-      - Customer Service with 79 languages
+      - Recognized academic programs with international relevance
+      - Diverse student body from across the state of Karnataka
+      - Language and communication training to boost global exposure
     buttons:
-      - label: Download The Theme
-        link: "https://themefisher.com/astro-themes/pinwheel-astro"
-        enable: true
-      - label: Learn More
-        link: "#"
-        outline: true
+      - label: Book a School Visit
+        link: "/contact"
         enable: true
   feature_tab:
-    title: Payment gateway for every stage <br /> of your business growth
+    title: Empowering Education, </br> One Step at a Time
     list:
-      - title: Transaction from Anyone with <br /> a world to Anywhere
-        content: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-        image: "/images/features/feature-img-2.png"
-      - title: Integrate Checkout with Process Smoothly
-        content: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-        image: "/images/features/feature-img-1.png"
-      - title: Transaction from Anyone with <br /> a world to Anywhere
-        content: Donec sollicitudin molestie malesda. Donec sollitudin molestie malesuada. Mauris pellentesque nec, egestas non nisi. Cras ultricies ligula sed
-        image: "/images/features/feature-img-2.png"
+      - title: Innovative Curriculum for Modern Learners
+        content: Our programs are designed to nurture curiosity, creativity, and critical thinking—equipping students with the skills they need to thrive in a rapidly changing world.
+        image: "/images/features/amenities3.webp"
+      - title: Global Exposure with Local Roots
+        content: We blend international standards with strong cultural values to create confident, compassionate global citizens.
+        image: "/images/features/amenities4.webp"
+      - title: Support Beyond the Classroom
+        content: From personalized mentoring to career guidance, we ensure each child’s growth is supported at every stage of their academic journey.
+        image: "/images/features/amenities5.webp"
 ---
