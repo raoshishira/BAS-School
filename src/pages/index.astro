@@ -12,9 +12,13 @@ const homepage = (await getEntry("homepage", "-index")) as CollectionEntry<"home
 const { banner, key_features, service, testimonial } = homepage.data;
 ---
 
-<Base>
-  
-  
+<Base
+  title="Home"
+  meta_title="Best CBSE School in North Karnataka"
+  description="BAS International School – nurturing students with excellence"
+  canonical="https://www.basinternationalschool.com/"
+  image="/images/Logo_nav.png"
+>
   <Banner banner={banner} />
   <KeyFeatures key_features={key_features} />
   <Service service={service} />
