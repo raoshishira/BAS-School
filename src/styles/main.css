@@ -16,3 +16,27 @@
   @import "./navigation.css";
   @import "./buttons.css";
 }
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050a30; /* Match your bg-primary (e.g., gray-800) */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #050a30; /* e.g., gray-600 */
+  border-radius: 6px;
+  border: 3px solid #1f2937; /* Same as track bg */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #050a30; /* e.g., gray-500 */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4b5563 #050a30;
+}
