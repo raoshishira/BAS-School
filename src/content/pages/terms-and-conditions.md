@@ -1,7 +1,7 @@
 ---
 title: "Terms & Condition Of Pinwheel"
 excerpt: Donec sollicitudin molestie malesda. Donec sollitudin molestie male <br /> suada Mauris pellentesque nec egestas non nisi Cras
-draft: false
+draft: true
 ---
 
 ### 1. Definitions

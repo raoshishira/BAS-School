@@ -5,10 +5,13 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/hero_image.png",
-    "logo": "/images/logo_nav.png",
-    "logo_width": "150",
-    "logo_height": "60",
-    "logo_text": "BAS International School"
+    "logo": "/images/FooterLogo.png",
+    "logo_width": "162.6",
+    "logo_height": "38.3",
+    "logo_text": "BAS International School",
+    "footer_logo": "/images/FooterLogo.png",
+    "footer_logo_width": "162.6",
+    "footer_logo_height": "38.3"
   },
 
   "settings": {
@@ -29,8 +32,8 @@
     "footer_description": "BAS International School | Day Scholar and Residential | IIT-JEE & NEET Foundation | Junior IAS",
     "email": "info.basinternationalschool@gmail.com",
     "location": "Almatti Road, Muddebihal (T), Vijayapura - 586212",
-    "phone": "+91 9035 054 453",
-    "contact_form_action": "#",
+    "phone": "+91 9035 054 454",
+    "contact_form_action": "https://api.web3forms.com/submit",
     "copyright": "Developed and Maintained by [Think Unlimited](https://thinkunlimited.in)"
   },
 

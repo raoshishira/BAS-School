@@ -1,0 +1,15 @@
+---
+const {
+  className = "",       // optional extra styling
+  blurAmount = "10px",  // customizable blur
+  bgColor = "rgba(31, 48, 104, 0.6)", // default primary with transparency
+  children
+} = Astro.props;
+---
+
+<section
+  class={`relative z-10 text-white p-8 rounded-xl ${className}`}
+  style={`background-color: ${bgColor}; backdrop-filter: blur(${blurAmount}); -webkit-backdrop-filter: blur(${blurAmount});`}
+>
+  {children}
+</section>

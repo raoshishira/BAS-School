@@ -3,20 +3,27 @@ import TestimonialSlider from "@/layouts/function-components/TestimonialSlider";
 const { testimonial } = Astro.props;
 ---
 
-<section class="reviews">
+<section class="reviews bg-primary text-primary !mt-0">
   <div class="container">
-    <div class="row flex flex-col items-center justify-between gap-6 lg:flex-row">
-  <div class="lg:col-10">
-    <h2>{testimonial.title}</h2>
-  </div>
-  <div class="lg:col-10">
-    <p>{testimonial.description}</p>
-  </div>
-</div>
+    <!-- Title & Description -->
+    <div class="row flex flex-col items-center justify-between gap-6 text-center lg:text-left lg:flex-row">
+      <div class="lg:col-10" data-fade>
+        <h2 class="text-3xl lg:text-4xl font-semibold">{testimonial.title}</h2>
+      </div>
+      <div class="lg:col-10" data-fade>
+        <p class="mt-2 text-lg">{testimonial.description}</p>
+      </div>
     </div>
-    <div class="row mt-10">
+
+    <!-- Slider -->
+    <div class="row mt-0" data-fade>
       <div class="col-12">
-        <TestimonialSlider list={testimonial.testimonial_list} client:load />
+        <div class="space-y-8">
+          <TestimonialSlider
+            list={testimonial.testimonial_list}
+            client:load
+          />
+        </div>
       </div>
     </div>
   </div>

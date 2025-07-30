@@ -10,21 +10,21 @@ const {
 } = config;
 ---
 
-<section class="px-5 py-20 xl:py-[120px]">
+<section class="bg-primary px-5 pt-20 pb-10 xl:pt-[120px] xl:pb-[40px]">
   <div class="container">
     <div
-      class="bg-gradient row justify-center rounded-b-[80px] rounded-t-[20px] px-[30px] pb-[75px] pt-16"
+      class="row justify-center rounded-b-[80px] rounded-t-[20px] bg-white bg-gradient-to-br from-white/90 to-white px-[30px] pb-[75px] pt-16 text-primary"
     >
       <div class="lg:col-11">
         <div class="row">
           <div class="lg:col-7">
-            <h2 class="h1 text-white">{title}</h2>
-            <a class="btn btn-white mt-8" href={link}>{label}</a>
+            <h2 class="h1" data-fade>{title}</h2>
+            <div data-fade>
+                <a class="btn btn-white mt-8" href={link}>{label}</a>
+            </div>
           </div>
-          <div class="mt-8 lg:col-5 lg:mt-0">
-            <p class="text-white">
-              {description}
-            </p>
+          <div class="mt-8 lg:col-5 lg:mt-0" data-fade>
+            <p class="text-justify">{description}</p>
           </div>
         </div>
       </div>

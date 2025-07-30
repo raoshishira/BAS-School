@@ -1,8 +1,8 @@
 .btn {
-  @apply inline-block h-[52px] border border-border px-8 py-2 text-sm font-medium leading-[36px] transition-all duration-200;
+  @apply inline-block h-[52px] border border-border px-8 py-2 text-sm font-medium leading-[36px] transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-md;
 }
 .btn-primary {
-  @apply cursor-pointer rounded-[50px] border-0 bg-primary text-white text-center font-medium transition-all duration-200 hover:shadow-[0px_5px_30px_rgba(31,48,104,0.4)];
+  @apply cursor-pointer rounded-[50px] border-0 bg-primary text-white text-center font-medium transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-[0px_5px_30px_rgba(31,48,104,0.4)];
 }
 
 .btn-outline-primary {
@@ -18,7 +18,7 @@
 }
 
 .btn-white {
-  @apply min-w-[150px] rounded-[50px] border-white bg-white text-center capitalize text-text-dark shadow-lg hover:shadow;
+  @apply min-w-[150px] rounded-[50px] bg-white text-center capitalize text-text-dark shadow-lg transition-all duration-300 hover:border hover:border-primary hover:text-primary;
 }
 
 .btn-sm {

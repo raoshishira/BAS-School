@@ -24,29 +24,22 @@ const page_data = {
   description={contact.description}
   image={contact.image}
 >
-  <section class="page-hero pb-6 pt-16">
+  <section class="page-hero pb-6 pt-16 bg-primary text-white">
     <div class="container">
       <PageHeader page_data={page_data} />
     </div>
   </section>
 
-  <section class="section pt-0">
-    <div class="container">
+  <section class="section pt-0 bg-primary text-white">
+    <div class="container" data-fade>
       <div class="row">
-        <div class="mb-10 text-center md:col-6 md:order-2 md:mb-0 md:pt-9">
+        <div class="mb-10 text-center text-white md:col-6 md:order-2 md:mb-0 md:pt-9">
           <div class="contact-img relative inline-flex pb-5 pl-5">
             <Image
-              src="/images/contact-img.png"
+              src="/images/contact.webp"
               height={544}
               width={500}
               alt=""
-            />
-            <Image
-              class="absolute bottom-0 left-0 -z-[1] h-14 w-14"
-              src="/images/shape-2.png"
-              alt=""
-              height={56}
-              width={56}
             />
           </div>
         </div>
@@ -56,40 +49,65 @@ const page_data = {
             action={contact_form_action}
             method="POST"
           >
+          <input type="hidden" name="access_key" value="c0f8f35a-3868-42fe-9bbb-8ea639d7f6ec" />
+          <input type="hidden" name="captcha" value="false" />
+          <div class="form-success hidden text-green-600 mt-4">Your message has been sent successfully.</div>
+          <div class="form-error hidden text-red-600 mt-4">Oops! Something went wrong.</div>
             <div class="form-group mb-5">
-              <label class="form-label" for="name">Full Name</label>
+              <label class="form-label !text-white" for="name">Full Name*</label>
               <input
-                class="form-control"
+                class="form-control bg-transparent text-white placeholder-white border-white"
                 type="text"
                 id="name"
-                placeholder="Your Full Name"
+                placeholder="Your Full Name (Required)"
+                required
               />
             </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="eamil">Email Adrdess</label>
+              <label class="form-label !text-white" for="eamil">Email Adrdess</label>
               <input
-                class="form-control"
+                class="form-control bg-transparent text-white placeholder-white border-white"
                 type="text"
                 id="email"
                 placeholder="Your  Email Address"
               />
             </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="reason">Reason/Purpose</label>
-              <select name="reason" id="reason" class="form-select" required>
-                <option value="">Select reason/purpose</option>
-                <option value="investment plane">Investment Plan</option>
-                <option value="investment plane-2">Investment Plan 2</option>
-                <option value="investment plane-3">Investment Plan 3</option>
-              </select>
+              <label class="form-label !text-white" for="eamil">Contact Number*</label>
+              <input
+                class="form-control bg-transparent text-white placeholder-white border-white"
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="Your Contact Number (Required)"
+                pattern="[6-9]{1}[0-9]{9}"
+                maxlength="10"
+                minlength="10"
+                inputmode="numeric"
+                required
+              />
             </div>
             <div class="form-group mb-5">
-              <label class="form-label" for="message">Message Here</label>
-              <textarea class="form-control" id="message" cols="30" rows="6"
+            <label class="form-label !text-white" for="reason">Reason/Purpose*</label>
+            <select
+               name="reason"
+               id="reason"
+               class="form-select bg-transparent !text-white placeholder-white border-white"
+               required
+               >
+                <option class="text-primary bg-white" value="">Select reason/purpose</option>
+                <option class="text-primary bg-white" value="dropdown-1">Admission</option>
+                <option class="text-primary bg-white" value="dropdown-2">General Enquiry</option>
+                <option class="text-primary bg-white" value="dropdown-3">Career Enquiry</option>
+             </select>
+          </div>
+            <div class="form-group mb-5">
+              <label class="form-label !text-white" for="message">Description</label>
+              <textarea class="form-control !text-white" id="message" cols="30" rows="6"
               ></textarea>
             </div>
             <input
-              class="btn btn-primary block w-full"
+              class="btn btn-white block w-full"
               type="submit"
               value="Send Message"
             />

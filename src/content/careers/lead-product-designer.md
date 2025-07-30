@@ -7,7 +7,7 @@ job_nature: "Full Time"
 location: San Francisco
 categories: ["designer"]
 date: 2021-07-09
-draft: false
+draft: true
 ---
 
 ### What Is the role?

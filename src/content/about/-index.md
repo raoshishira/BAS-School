@@ -1,6 +1,6 @@
 ---
 title: "About"
-page_title: "BAS International School – Shaping Tomorrow’s Leaders"
+page_title: "BAS International School </br> Shaping Tomorrow’s Leaders"
 meta_title: "BAS International School"
 description: "At BAS International School, we don’t just educate — we empower. Located in Muddebihal, Vijayapura, our school blends academic excellence with strong moral values, leadership development, and future-focused learning. Whether your child is a day scholar or part of our residential campus, we nurture each student with a well-rounded foundation for success in IIT-JEE, NEET Foundation, and Junior IAS programs. Our mission is to ignite curiosity, build confidence, and equip students with the skills they need to thrive in a fast-evolving world. With experienced faculty, a value-driven approach, and a supportive environment, we prepare young minds to lead with integrity and purpose."
 image: ""
@@ -64,7 +64,7 @@ features:
 ## members
 members:
   title: This is who we are
-  description: Donec sollicitudin molestie malesda. Donec sollitudin mol estie ultricies ligula sed magna dictum
+  description: At BAS School, we believe education is about more than just academics — it's about building character, confidence, and curiosity.
   member_list:
     - name: Name
       field: Designation

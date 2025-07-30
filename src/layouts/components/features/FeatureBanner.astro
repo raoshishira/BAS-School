@@ -6,8 +6,8 @@ const {
 } = Astro.props;
 ---
 
-<section class="section">
-  <div class="container">
+<section class="section bg-primary text-white">
+  <div class="container" data-fade>
     <div class="row">
       <div
         class="mb-14 text-center lg:col-6 lg:order-1 lg:mb-0 lg:mt-0 lg:text-left"
@@ -44,7 +44,7 @@ const {
         </p>
         {
           banner.button.enable && (
-            <a class="btn btn-primary mt-6" href={banner.button.link}>
+            <a class="btn btn-white mt-6" href={banner.button.link}>
               {banner.button.label}
             </a>
           )

@@ -10,14 +10,14 @@ const Projects = ({ projects }) => {
           return (
             <div className="lg:col-6" key={`item-${i}`}>
               <div
-                className={`flex items-center space-x-4 rounded-lg bg-[#fafafa] px-6 py-8 lg:mt-6  ${
-                  projects.length - 1 === i ? "mb-0" : "mb-6 "
+                className={`flex items-center space-x-4 rounded-lg bg-[#fafafa] px-6 py-8 lg:mt-6 transition-transform duration-300 hover:scale-[1.03] ${
+                projects.length - 1 === i ? "mb-0" : "mb-6"
                 } `}
               >
                 <div className="relative inline-flex h-24 w-24 items-center justify-center p-3">
                   <span className="project-icon text-[#FA7398]">
                     {" "}
-                    <FeatherIcon className="font-semibold" />
+                    <FeatherIcon className="text-primary" size={28} />
                   </span>
                   <svg
                     className="absolute left-0 top-0 h-full w-full"
@@ -37,8 +37,8 @@ const Projects = ({ projects }) => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="h5 font-primary">{item.title}</h3>
-                  <p className="mt-4">{item.content} </p>
+                  <h3 className="h5 font-primary text-primary">{item.title}</h3>
+                  <p className="mt-4 text-primary/80">{item.content}</p>
                 </div>
               </div>
             </div>

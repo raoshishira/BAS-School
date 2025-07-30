@@ -7,7 +7,7 @@ job_nature: "Full Time"
 location: San Francisco
 categories: ["developer"]
 date: 2021-07-10
-draft: false
+draft: true
 ---
 
 ### What Is the role?

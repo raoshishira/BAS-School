@@ -1,0 +1,35 @@
+---
+// FooterLogo.astro
+import config from "@/config/config.json";
+import { Image } from "astro:assets";
+
+const {
+  footer_logo,
+  footer_logo_width,
+  footer_logo_height,
+  logo_text,
+  title,
+} = config.site;
+---
+
+<a href="/" class="block">
+  {
+    footer_logo ? (
+      <Image
+        src={footer_logo}
+        alt={title}
+        width={parseFloat(footer_logo_width || "162.6") * 2}
+        height={parseFloat(footer_logo_height || "38.3") * 2}
+        style={{
+          width: `${footer_logo_width || "162.6"}px`,
+          height: `${footer_logo_height || "38.3"}px`,
+        }}
+        class="h-auto w-auto"
+      />
+    ) : logo_text ? (
+      logo_text
+    ) : (
+      title
+    )
+  }
+</a>

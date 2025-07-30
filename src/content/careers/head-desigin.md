@@ -7,7 +7,7 @@ job_nature: "Remote"
 location: San Francisco
 categories: ["developer"]
 date: 2021-07-13
-draft: false
+draft: true
 ---
 
 ### What Is the role?

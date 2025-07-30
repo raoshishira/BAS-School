@@ -1,12 +1,12 @@
 ---
 banner:
-  title: "Welcome to BAS International School"
-  content: "CLasses 1 to 8 | JEE & NEET Foundation | Juior IAS Program"
+  title: "Welcome to BAS International School, </br> Muddebihal"
+  content: "Classes 1 to 8 | JEE & NEET Foundation | Junior IAS Program"
   image: /images/Hero.webp
   button:
     enable: true
     label: Know More
-    link: "/about"
+    link: "#whychooseus"
 
 ##key features
 key_features:

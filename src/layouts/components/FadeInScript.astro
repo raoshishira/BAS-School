@@ -1,0 +1,31 @@
+<script>
+  const callback = (entries: any[]) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  };
+
+  const observer = new IntersectionObserver(callback, {
+    threshold: 0.1,
+  });
+
+  function observeFadeElements() {
+    document.querySelectorAll("[data-fade]:not(.visible)").forEach((el) => {
+      observer.observe(el);
+    });
+  }
+
+  document.addEventListener("DOMContentLoaded", () => {
+    observeFadeElements();
+
+    // Watch for changes in the DOM (e.g., React or Astro hydration)
+    const mutationObserver = new MutationObserver(observeFadeElements);
+    mutationObserver.observe(document.body, {
+      childList: true,
+      subtree: true,
+    });
+  });
+</script>
+

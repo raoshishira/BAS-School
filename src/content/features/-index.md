@@ -53,11 +53,11 @@ project_management:
     list:
       - title: Innovative Curriculum for Modern Learners
         content: Our programs are designed to nurture curiosity, creativity, and critical thinking—equipping students with the skills they need to thrive in a rapidly changing world.
-        image: "/images/features/amenities3.webp"
+        image: "/images/features/amenities3.png"
       - title: Global Exposure with Local Roots
         content: We blend international standards with strong cultural values to create confident, compassionate global citizens.
-        image: "/images/features/amenities4.webp"
+        image: "/images/features/amenities4.png"
       - title: Support Beyond the Classroom
         content: From personalized mentoring to career guidance, we ensure each child’s growth is supported at every stage of their academic journey.
-        image: "/images/features/amenities5.webp"
+        image: "/images/features/amenities5.png"
 ---

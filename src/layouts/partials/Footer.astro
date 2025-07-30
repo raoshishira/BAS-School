@@ -1,5 +1,5 @@
 ---
-import Logo from "@/components/Logo.astro";
+import FooterLogo from "@/partials/FooterLogo.astro";
 import Social from "@/components/Social.astro";
 import config from "@/config/config.json";
 import menu from "@/config/menu.json";
@@ -9,27 +9,27 @@ const { footer } = menu;
 const { copyright, location, email, phone, footer_description } = config.params;
 ---
 
-<footer class="footer bg-[#F1F1F1]">
+<footer class="footer bg-primary text-white">
   <div class="container">
-    <div class="gx-5 row pb-10 pt-[52px]">
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
-        <Logo class="mb-4"/>
+    <div class="gx-5 row pb-10 pt-8 items-start">
+      <div class="col-12 md:col-6 lg:col-3 mt-0 flex flex-col">
+        <FooterLogo class="mb-4 !mt-0 !pt-0" />
         <p class="mt-6">
           {footer_description}
         </p>
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
+      <div class="col-12 mt-6 md:col-6 lg:col-3">
         <h6>Socials</h6>
 
         <Social source={social} className="social-icons mt-4 lg:mt-6" />
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
+      <div class="col-12 mt-6 md:col-6 lg:col-3">
         <h6>Quick Links</h6>
         <ul>
           {
             footer.map((item, i) => (
               <li class={footer.length - 1 === i ? "mb-0" : "mb-4"}>
-                <a class="hover:text-primary hover:underline " href={item.url}>
+                <a class="hover:text-white hover:underline " href={item.url}>
                   {item.name}
                 </a>
               </li>
@@ -37,12 +37,12 @@ const { copyright, location, email, phone, footer_description } = config.params;
           }
         </ul>
       </div>
-      <div class="col-12 mt-12 md:col-6 lg:col-3">
+      <div class="col-12 mt-6 md:col-6 lg:col-3">
         <h6>Location & Contact</h6>
           <ul>
           <li class="mb-2">
             <a
-              class="hover:text-primary hover:underline"
+              class="hover:text-white hover:underline"
               href="https://maps.app.goo.gl/2CLjcwGoVLFqscdNA"
               target="_blank"
               rel="noopener noreferrer"
@@ -66,9 +66,9 @@ const { copyright, location, email, phone, footer_description } = config.params;
   </div>
   <div class="container max-w-[1440px]">
     <div
-      class="footer-copyright mx-auto border-t border-border pb-10 pt-7 text-center"
+      class="footer-copyright mx-auto border-t border-white/20 pb-10 pt-7 text-center"
     >
-      <p class="content text-text" set:html={markdownify(copyright)} />
+      <p class="content text-white [&_strong]:text-white [&_a]:text-white" set:html={markdownify(copyright)}></p>
     </div>
   </div>
 </footer>

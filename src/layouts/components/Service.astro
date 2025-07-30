@@ -12,70 +12,77 @@ const { service } = Astro.props;
 const { homepage_tab, our_service } = service;
 ---
 
-<section class="section services">
+<section class="section services relative bg-primary text-white">
   <div class="container">
-    <HomepageTab client:load homepage_tab={homepage_tab} />
-    {
-      our_service.map((item, index) => (
-        <div class="gx-5 row mt-12 items-center lg:mt-0">
-          <div class={`lg:col-7 ${index % 2 === 0 ? "order-0" : "order-1"}`}>
-            {item.image && (
-              <div class="relative">
+  <HomepageTab client:load homepage_tab={homepage_tab} />
+
+  {our_service.map((item, index) => (
+    <div class="mt-12" data-fade>
+      <div
+        class={`flex flex-col-reverse lg:flex-row ${
+          index % 2 !== 0 ? "lg:flex-row-reverse" : ""
+        } items-center gap-8 lg:gap-16`}
+        data-fade>
+        <!-- Image / Video Column -->
+        <div class="w-full lg:w-1/2 flex justify-center">
+          {item.image && (
+            <div class="relative max-w-[667px] w-full px-4">
+              <div class="overflow-hidden rounded-2xl">
                 <Image
-                  class="w-full object-contain"
+                  class="w-full object-cover rounded-2xl"
                   alt="service"
                   width={667}
                   height={498}
                   src={item.image}
                 />
-                <Image
-                  class="absolute bottom-6 left-1/2 -z-[1] -translate-x-1/2"
-                  src="/images/shape-2.png"
-                  alt=""
-                  height={147}
-                  width={151}
-                />
               </div>
-            )}
-            {item.video && (
-              <VideoComponent
-                client:load
-                src={item.video.thumbnail}
-                height={370}
-                width={700}
-                title={item.title}
-                video_id={item.video.video_id}
-                video_width="w-[700px]"
-                video_height="h-[370px]"
+              <Image
+                class="absolute bottom-6 left-1/2 -z-[1] -translate-x-1/2"
+                src="/images/shape-2.png"
+                alt=""
+                height={147}
+                width={151}
               />
-            )}
-          </div>
-          <div
-            class={`mt-6 lg:col-5 lg:mt-0 ${
-              index % 2 === 0 ? "order-1" : "order-0"
-            }`}
-          >
-            <div class="text-container">
-              <h2 class="lg:text-4xl">{item.title}</h2>
-              <p class="mt-4">{item.description}</p>
-              {item.button && item.button.enable && (
+            </div>
+          )}
+          {item.video && (
+            <VideoComponent
+              client:load
+              src={item.video.thumbnail}
+              height={370}
+              width={700}
+              title={item.title}
+              video_id={item.video.video_id}
+              video_width="w-[700px]"
+              video_height="h-[370px]"
+            />
+          )}
+        </div>
+
+        <!-- Text Column -->
+        <div class="w-full lg:w-1/2 px-4">
+          <div class="flex flex-col justify-center h-full">
+            <h2 class="lg:text-4xl" data-fade>{item.title}</h2>
+            <p class="mt-4" data-fade>{item.description}</p>
+            {item.button?.enable && (
+              <div data-fade>
                 <a class="btn btn-white mt-6" href={item.button.link}>
                   {item.button.label}
                 </a>
-              )}
-              <ul class="mt-6 text-text-dark lg:-ml-4">
-                {item.list &&
-                  item.list.map((list) => (
-                    <li class="mb-2 flex items-center rounded px-4">
-                      <AiFillCheckCircle className="mr-3 fill-(--color-primary) text-white" />
-                      {list}
-                    </li>
-                  ))}
-              </ul>
-            </div>
+              </div>
+            )}
+            <ul class="mt-14 text-white">
+              {item.list?.map((list) => (
+                <li class="mb-2 flex items-center rounded px-4">
+                  <AiFillCheckCircle className="mr-3 fill-[var(--color-white)] text-white" />
+                  {list}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
-      ))
-    }
-  </div>
+      </div>
+    </div>
+  ))}
+</div>
 </section>

@@ -1,0 +1,55 @@
+---
+// No props needed
+---
+
+<script type="module" is:inline>
+  let circle;
+  let mouseX = 0;
+  let mouseY = 0;
+
+  const animate = () => {
+    if (!circle) return;
+    circle.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+    requestAnimationFrame(animate);
+  };
+
+  // ✅ Mouse support
+  window.addEventListener("mousemove", (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+  });
+
+  // ✅ Touch support (ADD THIS right after mousemove)
+  window.addEventListener("touchmove", (e) => {
+    if (e.touches.length > 0) {
+      mouseX = e.touches[0].clientX;
+      mouseY = e.touches[0].clientY;
+    }
+  }, { passive: true });
+
+  window.addEventListener("DOMContentLoaded", () => {
+    circle = document.querySelector("#mouse-tracker");
+    animate();
+  });
+</script>
+
+
+<style>
+  #mouse-tracker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.1); /* white with opacity */
+    border: 2px solid rgba(255, 255, 255, 0.4); /* white border */
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    transition: transform 0.05s linear;
+    backdrop-filter: blur(4px);
+  }
+</style>
+
+<div id="mouse-tracker"></div>

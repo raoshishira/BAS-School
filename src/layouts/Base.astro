@@ -7,6 +7,10 @@ import Header from "@/partials/Header.astro";
 import "@/styles/main.css";
 import { AstroFont } from "astro-font";
 import { ClientRouter } from "astro:transitions";
+import MouseTracker from "@/components/MouseTracker.astro";
+import WhatsAppButton from "@/components/WhatsAppButton.astro";
+import FadeInScript from "./components/FadeInScript.astro";
+
 
 // font families
 const pf = theme.fonts.font_family.primary;
@@ -98,8 +102,6 @@ const { title, meta_title, description, image, noindex, canonical } =
       )}
     />
 
-    <ClientRouter />
-
     <!-- author from config.json -->
     <meta name="author" content={config.metadata.meta_author} />
 
@@ -157,11 +159,22 @@ const { title, meta_title, description, image, noindex, canonical } =
     />
     <meta name="twitter:card" content="summary_large_image" />
   </head>
-  <body>
+  <!-- pace.js CSS (you can choose a different theme) -->
+<link href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-flash.css" rel="stylesheet" />
+
+    <FadeInScript />
+  <body >
+  <div id="page">
     <Header />
     <main id="main-content">
+      <MouseTracker />
       <slot />
     </main>
-    <Footer />
-  </body>
+    <WhatsAppButton 
+      phone="+919035054454" 
+      message="Hi, I would like to know more about admissions!" 
+    />
+    <Footer/>
+  </div>
+</body>
 </html>
