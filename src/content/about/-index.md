@@ -34,7 +34,7 @@ counter:
 
 # Gallery
 gallery:
-  title: Built with Vision. Rooted in Purpose.
+  title: Built with Vision </br> Rooted in Purpose
   images:
     - "/images/about/gallery1.webp"
     - "/images/about/gallery2.webp"

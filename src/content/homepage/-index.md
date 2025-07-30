@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "Welcome to BAS International School, </br> Muddebihal"
+  title: "Welcome to BAS International School, </br> Muddebihal <br> CBSE (Syllabus)"
   content: "Classes 1 to 8 | JEE & NEET Foundation | Junior IAS Program"
   image: /images/Hero.webp
   button:
