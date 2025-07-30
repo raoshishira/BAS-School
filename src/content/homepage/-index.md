@@ -14,7 +14,7 @@ key_features:
   description: Our Expert Faculty, world-class infrastructure, student-centric approach are one of the several reasons to choose BAS International School.
   feature_list:
     - icon: "BookOpen" #icon package react-feather-icon
-      title: Foundation Course
+      title: NEET & JEE
       content: NEET and JEE prep from early school years.
     - icon: "Target" #icon package react-feather-icon
       title: Junior IAS
