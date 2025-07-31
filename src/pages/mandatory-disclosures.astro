@@ -1,0 +1,48 @@
+---
+import Base from "@/layouts/Base.astro";
+
+const title = "Mandatory Disclosures";
+const description = "Official documents and certifications shared as per CBSE requirements.";
+
+const disclosures = [
+  { name: "Building Safery Certificate", file: "Building-Safety-Certificate.pdf" },
+  { name: "Certificate Of Land", file: "Certificate-of-Land.pdf" },
+  { name: "Fee Structure", file: "Fee-Structure.pdf" },
+  { name: "Fire Safety Certificate", file: "Fire-Safety-Certificate.pdf" },
+  { name: "First Recognition", file: "First-Recognition.pdf" },
+  { name: "PTA List", file: "PTA-List.pdf" },
+  { name: "Self Certification", file: "Self-Certification.pdf" },
+  { name: "Trust Registration", file: "Trust-Registration.pdf" },
+  { name: "Water Certificate", file: "Water-Certificate.pdf" },
+  { name: "Water Testing Report", file: "Water-Testing-Report.pdf" }
+];
+---
+
+<Base 
+  title={title}
+  meta_title="Mandatory Disclosures | BAS International School"
+  description={description}
+  canonical="https://www.basinternationalschool.com/mandatory-disclosures"
+>
+  <section class="py-16">
+  <div class="container mx-auto px-4">
+    <h1 class="text-h2-sm md:text-h2 font- text-white font-bold mb-8 text-center" data-fade="">
+      Mandatory Disclosures
+    </h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" data-fade>
+      {disclosures.map((item) => (
+        <a
+          href={`/documents/${item.file}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="block bg-white border border-gray-200 rounded-2xl p-6 text-center shadow-md hover:shadow-lg transition-all duration-300 group"
+        >
+          <span class="text-lg font-primary font-medium text-text-dark group-hover:text-primary transition">
+            {item.name}
+          </span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+</Base>

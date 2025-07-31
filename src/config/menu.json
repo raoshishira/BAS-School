@@ -31,6 +31,10 @@
     {
       "name": "Contact",
       "url": "/contact"
+    },
+    {
+      "name": "Mandatory Disclosures",
+      "url": "/mandatory-disclosures"
     }
   ]
 }
