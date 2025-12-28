@@ -10,6 +10,7 @@ import { ClientRouter } from "astro:transitions";
 import MouseTracker from "@/components/MouseTracker.astro";
 import WhatsAppButton from "@/components/WhatsAppButton.astro";
 import FadeInScript from "./components/FadeInScript.astro";
+import Schema from "@/layouts/components/Schema.astro";
 
 
 // font families
@@ -38,7 +39,7 @@ const { title, meta_title, description, image, noindex, canonical } =
     <!-- favicon -->
     <link rel="shortcut icon" href={config.site.favicon} />
     <!-- theme meta -->
-    <meta name="theme-name" content="bas-school-astro" />
+    <meta name="theme-name" content="think-unlimited-astro" />
     <meta name="msapplication-TileColor" content="#000000" />
     <meta
       name="theme-color"
@@ -158,6 +159,7 @@ const { title, meta_title, description, image, noindex, canonical } =
       }`}
     />
     <meta name="twitter:card" content="summary_large_image" />
+    <Schema />
   </head>
   <!-- pace.js CSS (you can choose a different theme) -->
 <link href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-flash.css" rel="stylesheet" />

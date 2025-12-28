@@ -1,97 +1,91 @@
-<h1 align=center>BAS International School</h1>
-<p align=center>Developed with Astro, Typescript and Tailwind CSS</p>
+<h1 align=center>BAS International School Website</h1>
+<p align=center>Developed by <a href="https://thinkunlimited.in">Think Unlimited</a> using Astro, React, and Tailwind CSS</p>
+
 <p align=center>
-  <a href="https://github.com/withastro/astro/releases/tag/astro%405.5.2" alt="Contributors">
-    <img src="https://img.shields.io/static/v1?label=ASTRO&message=5.5&color=000&logo=astro" />
-  </a>
+  <img src="https://img.shields.io/static/v1?label=ASTRO&message=5.x&color=orange&logo=astro" />
+  <img src="https://img.shields.io/static/v1?label=Tailwind&message=4.x&color=blue&logo=tailwindcss" />
+  <img src="https://img.shields.io/static/v1?label=React&message=19.x&color=blue&logo=react" />
+</p>
 
-![Think Unlimited](https://tjinkunlimited.in)
+## 📖 Project Overview
 
-<!-- small description -->
-
-<!-- key features -->
+This is the official website for **BAS International School** (Muddebihal), designed to provide information about admissions, academics, facilities, and mandatory disclosures. The project is a highly optimized, SEO-friendly static site built with **Astro**.
 
 ## 📌 Key Features
 
-- 📄 17+ Pre-designed pages
-- 🎨 Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
-- 🗃️ Taxonomy support
-- ⚡ Fast by default (95+ Google PageSpeed Score)
-- 📝 Contact form support
-- 🖼️ Support OG image
-- 📝 Write and update content in Markdown / MDX
-- 💻 MDX components auto import
-- 📝 Includes draft pages and posts
-- 🎨 Built with Tailwind CSS framework
-- 📱 Fully responsive on desktops, tablets, and smartphones
-- 🔍 SEO Friendly
+- **🚀 High Performance:** Static site generation (SSG) ensures blazing fast load times (95+ Google PageSpeed Score).
+- **🔍 SEO Optimized:** 
+  - Comprehensive meta tags (Title, Description, OG Tags).
+  - **Structured Data (JSON-LD):** Integrated `School` schema for better search engine visibility.
+  - **Sitemap:** Auto-generated `sitemap-index.xml`.
+  - **Robots.txt:** Configured for proper indexing.
+- **🎨 Modern Design:** Built with Tailwind CSS for a responsive, mobile-first UI.
+- **📱 Responsive:** Fully functional across Desktops, Tablets, and Mobile devices.
+- **⚙️ Configurable:** Site settings, menus, and social links are managed via JSON configuration files (`src/config/`).
+- **📝 Content Management:** Content is managed via Markdown/MDX files in `src/content/`.
 
-## 📄 Available Pre-Designed Pages:
+## 📂 Site Structure & Pages
 
-- 🏠 Home
-- 🛠️ How it works
-- 🌟 Features
-- 📝 Blog
-- 📝 Blog Single
-- 🗂️ Categories
-- 🗂️ Category Single
-- 👤 About
-- 📞 Contact
-- 💼 Career
-- 💼 Career Single
-- 💰 Pricing
-- 📜 Changelog
-- 🔑 Sign In
-- 🔑 Sing Up
-- 🔗 Integrations
-- 🔗 Integration Single
-- 📜 Terms and Conditions
-- 💡 Elements
+The following pages are active and maintained:
 
-<!-- installation -->
+- **🏠 Home:** (`/`) - Landing page with banner, key features, services, and testimonials.
+- **👤 About Us:** (`/about`) - Information about the school's mission, vision, and gallery.
+- **🌟 Amenities:** (`/features`) - Details about infrastructure and facilities.
+- **📜 Mandatory Disclosures:** (`/mandatory-disclosures`) - Regulatory documents and certificates.
+- **📞 Contact:** (`/contact`) - Contact details and inquiry form.
+- **🚫 404:** Custom "Page Not Found" experience.
 
-## 🛠️ Installation
+> **Note:** Unused templates (Pricing, Blog, Careers, Login/Signup) have been removed to keep the codebase clean and lightweight.
 
-After downloading the template, you have some prerequisites to install. Then you can run it on your localhost. You can view the package.json file to see which scripts are included.
+## 🛠️ Tech Stack
 
-### Install prerequisites (once for a machine)
+- **Framework:** [Astro](https://astro.build/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Components:** [React](https://reactjs.org/) (for interactive elements)
+- **Content:** MDX & Markdown
+- **Package Manager:** NPM / Yarn
 
-- **Node Installation:** [Install node js](https://nodejs.org/en/download/) [Recommended LTS version]
+## 🚀 Getting Started
 
-### 👨🏻‍💻 Local setup
+### Prerequisites
 
-After successfully installing those dependencies, open this template with any IDE [[VS Code](https://code.visualstudio.com/) recommended], and then open the internal terminal of IDM [vs code shortcut <code>ctrl/cmd+\`</code>]
+- Node.js (LTS version recommended)
+- NPM or Yarn
 
-- 👉 Install dependencies
+### Installation
 
-```
-npm install
-```
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd BAS-School
+   ```
 
-- 👉 Run locally
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-```
-npm run dev
-```
+3. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+   The site will be available at `http://localhost:4321`.
 
-After that, it will open up a preview of the template in your default browser, watch for changes to source files, and live-reload the browser when changes are saved.
+## 🏗️ Building for Production
 
-## 🏗️ Production Build
+To create an optimized production build:
 
-After finishing all the customization, you can create a production build by running this command.
-
-```
+```bash
 npm run build
 ```
+The output will be generated in the `dist/` directory, ready for deployment (e.g., Netlify, Vercel, or standard web hosting).
 
-<!-- reporting issue -->
+## 🐞 Project Maintenance
 
-## 🐞 Reporting Issues
-
-If you encounter any problem, feel free to [Connect With Us](https://thinkunlimited.in/contact/).
-
-<!-- licence -->
+- **Configuration:** Update site metadata, social links, and menus in `src/config/`.
+- **Content:** Update page text and images in `src/content/`.
+- **Styling:** Global styles are in `src/styles/`.
 
 ## 📝 License
 
-Copyright (c) 2025 - Present, Designed & Developed by [Think Unlimited](https://thinkunlimited.in)
+Developed and Maintained by [Think Unlimited](https://thinkunlimited.in).
