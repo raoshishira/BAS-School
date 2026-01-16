@@ -1,8 +1,8 @@
 {
-  "name": "pinwheel-astro",
+  "name": "bas-school-astro",
   "version": "3.1.0",
   "description": "Astro and Tailwindcss boilerplate",
-  "author": "themefisher",
+  "author": "Think Unlimited",
   "license": "MIT",
   "packageManager": "yarn@1.22.19",
   "type": "module",

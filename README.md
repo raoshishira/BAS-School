@@ -11,42 +11,24 @@
 
 <!-- key features -->
 
-## 📌 Key Features
-
-- 📄 17+ Pre-designed pages
+- 📄 6 Essential pages
 - 🎨 Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
-- 🗃️ Taxonomy support
 - ⚡ Fast by default (95+ Google PageSpeed Score)
 - 📝 Contact form support
 - 🖼️ Support OG image
-- 📝 Write and update content in Markdown / MDX
-- 💻 MDX components auto import
-- 📝 Includes draft pages and posts
 - 🎨 Built with Tailwind CSS framework
 - 📱 Fully responsive on desktops, tablets, and smartphones
 - 🔍 SEO Friendly
 
-## 📄 Available Pre-Designed Pages:
+## 📄 Available Pages:
 
 - 🏠 Home
-- 🛠️ How it works
-- 🌟 Features
-- 📝 Blog
-- 📝 Blog Single
-- 🗂️ Categories
-- 🗂️ Category Single
 - 👤 About
 - 📞 Contact
-- 💼 Career
-- 💼 Career Single
-- 💰 Pricing
-- 📜 Changelog
-- 🔑 Sign In
-- 🔑 Sing Up
-- 🔗 Integrations
-- 🔗 Integration Single
-- 📜 Terms and Conditions
-- 💡 Elements
+- 🚀 Amenities (Features)
+- 📜 Mandatory Disclosures
+- ⚠️ 404 (Not Found)
+
 
 <!-- installation -->
 

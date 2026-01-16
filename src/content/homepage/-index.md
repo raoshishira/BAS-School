@@ -78,17 +78,17 @@ testimonial:
   description: Students thrive and parents feel confident — hear what our community says about BAS International School.
   testimonial_list:
     - author: Aanya R
-      avatar: "/images/users/Student.png"
+      avatar: "/images/favicon.png"
       organization: Grade 7
       rating: five
       content: BAS makes learning fun! The activities and foundation classes help me understand science and maths better.
     - author: Nikhil M
-      avatar: "/images/users/Student.png"
+      avatar: "/images/favicon.png"
       organization: Grade 6 (Residential)
       rating: five
       content: I love the hostel life! Teachers are always there to guide us — even during study hours.
     - author: Priya Deshpande
-      avatar: "/images/users/Parent.png"
+      avatar: "/images/favicon.png"
       organization: Parent
       rating: five
       content: We chose BAS for its discipline and NEET foundation. My child is more focused and confident now.

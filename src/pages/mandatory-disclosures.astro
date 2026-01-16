@@ -2,10 +2,14 @@
 import Base from "@/layouts/Base.astro";
 
 const title = "Mandatory Disclosure";
-const description = "Official documents and certifications shared as per CBSE requirements.";
+const description =
+  "Official documents and certifications shared as per CBSE requirements.";
 
 const disclosures = [
-  { name: "Building Safery Certificate", file: "Building-Safety-Certificate.pdf" },
+  {
+    name: "Building Safery Certificate",
+    file: "Building-Safety-Certificate.pdf",
+  },
   { name: "Certificate Of Land", file: "Certificate-of-Land.pdf" },
   { name: "Fee Structure", file: "Fee-Structure.pdf" },
   { name: "Fire Safety Certificate", file: "Fire-Safety-Certificate.pdf" },
@@ -13,38 +17,54 @@ const disclosures = [
   { name: "PTA List", file: "PTA-List.pdf" },
   { name: "Self Certification", file: "Self-Certification.pdf" },
   { name: "Trust Registration", file: "Trust-Registration.pdf" },
-  { name: "Safe Drinking Water Certificate", file: "Safe-Drinking-Water-Certificate.pdf" },
-  { name: "Water Testing Report", file: "Water-Testing-Report.pdf"},
+  {
+    name: "Safe Drinking Water Certificate",
+    file: "Safe-Drinking-Water-Certificate.pdf",
+  },
+  { name: "Water Testing Report", file: "Water-Testing-Report.pdf" },
   { name: "Year Calender - 2025", file: "2025-Year-Calendar.pdf" },
   { name: "List of SMC Members", file: "List-of-SMC-Members.pdf" },
-  { name: "Mandatory Disclosure", file: "Mandatory-Disclosure.pdf" }
+  { name: "Mandatory Disclosure", file: "Mandatory-Disclosure.pdf" },
+  {
+    name: "Society Registration Certificate",
+    file: "Society-Registration-Certificate.pdf",
+  },
 ];
 ---
 
-<Base 
+<Base
   title={title}
   meta_title="Mandatory Disclosure | BAS International School"
   description={description}
   canonical="https://www.basinternationalschool.com/mandatory-disclosures"
 >
   <section class="py-16">
-  <div class="container mx-auto px-4">
-    <h1 class="text-h2-sm md:text-h2 font- text-white font-bold mb-8 text-center" data-fade=""> Mandatory Disclosure
-    </h1>
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6" data-fade>
-      {disclosures.map((item) => (
-        <a
-          href={`/documents/${item.file}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          class="block bg-white border border-gray-200 rounded-2xl p-6 text-center shadow-md transition-transform duration-300 transform hover:scale-105"
-        >
-          <span class="text-lg font-primary font-medium text-text-dark group-hover:text-primary transition">
-            {item.name}
-          </span>
-        </a>
-      ))}
+    <div class="container mx-auto px-4">
+      <h1
+        class="text-h2-sm md:text-h2 font- text-white font-bold mb-8 text-center"
+        data-fade=""
+      >
+        Mandatory Disclosure
+      </h1>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+        data-fade
+      >
+        {
+          disclosures.map((item) => (
+            <a
+              href={`/documents/${item.file}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block bg-white border border-gray-200 rounded-2xl p-6 text-center shadow-md transition-transform duration-300 transform hover:scale-105"
+            >
+              <span class="text-lg font-primary font-medium text-text-dark group-hover:text-primary transition">
+                {item.name}
+              </span>
+            </a>
+          ))
+        }
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 </Base>
