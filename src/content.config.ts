@@ -224,6 +224,7 @@ const featuresCollection = defineCollection({
 
 // Contact collection schema
 const contactCollection = defineCollection({
+  loader: glob({ pattern: "**/-*.{md,mdx}", base: "src/content/contact" }),
   schema: z.object({
     title: z.string(),
     meta_title: z.string().optional(),
@@ -233,6 +234,7 @@ const contactCollection = defineCollection({
   }),
 });
 
+<<<<<<< HEAD
 // Pages collection schema
 const pagesCollection = defineCollection({
   schema: z.object({
@@ -243,6 +245,13 @@ const pagesCollection = defineCollection({
     image: z.string().optional(),
     layout: z.string().optional(),
     draft: z.boolean().optional(),
+=======
+// Not-found collection schema
+const notFoundCollection = defineCollection({
+  loader: glob({ pattern: "*.{md,mdx}", base: "src/content/not-found" }),
+  schema: z.object({
+    title: z.string(),
+>>>>>>> 10d726e2cd8b03f52d9635903a144d91de5821e5
   }),
 });
 
@@ -252,7 +261,12 @@ export const collections = {
   about: aboutCollection,
   features: featuresCollection,
   contact: contactCollection,
+<<<<<<< HEAD
   pages: pagesCollection,
 };
 
 
+=======
+  "not-found": notFoundCollection,
+};
+>>>>>>> 10d726e2cd8b03f52d9635903a144d91de5821e5

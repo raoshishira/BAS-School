@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "bas-school-astro",
+=======
+  "name": "think-unlimited-astro",
+>>>>>>> 10d726e2cd8b03f52d9635903a144d91de5821e5
   "version": "3.1.0",
   "description": "Astro and Tailwindcss boilerplate",
   "author": "Think Unlimited",
@@ -14,13 +18,13 @@
     "format": "prettier -w ."
   },
   "dependencies": {
-    "@astrojs/check": "^0.9.4",
-    "@astrojs/mdx": "^4.3.1",
-    "@astrojs/react": "^4.3.0",
-    "@astrojs/rss": "^4.0.12",
-    "@astrojs/sitemap": "^3.4.1",
+    "@astrojs/check": "^0.9.6",
+    "@astrojs/mdx": "^4.3.13",
+    "@astrojs/react": "^4.4.2",
+    "@astrojs/rss": "^4.0.14",
+    "@astrojs/sitemap": "^3.6.0",
     "aos": "^2.3.4",
-    "astro": "^5.12.3",
+    "astro": "^5.16.6",
     "astro-auto-import": "^0.4.4",
     "astro-font": "^1.0.0",
     "date-fns": "^4.1.0",

@@ -1,0 +1,39 @@
+---
+import config from "@/config/config.json";
+import social from "@/config/social.json";
+
+const {
+  site: { title, base_url, logo },
+  params: { phone, email },
+  metadata: { meta_description },
+} = config;
+
+const socialLinks = Object.values(social).filter((link) => link && link.startsWith("http"));
+
+const schema = {
+  "@context": "https://schema.org",
+  "@type": "School",
+  "name": title,
+  "url": base_url,
+  "logo": `${base_url}${logo}`,
+  "image": `${base_url}${config.metadata.meta_image}`,
+  "description": meta_description,
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Almatti Road",
+    "addressLocality": "Muddebihal",
+    "addressRegion": "Karnataka",
+    "postalCode": "586212",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": phone,
+    "contactType": "admissions",
+    "email": email
+  },
+  "sameAs": socialLinks
+};
+---
+
+<script is:inline type="application/ld+json" set:html={JSON.stringify(schema)} />
