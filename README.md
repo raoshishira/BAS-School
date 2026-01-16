@@ -11,26 +11,6 @@
 
 This is the official website for **BAS International School** (Muddebihal), designed to provide information about admissions, academics, facilities, and mandatory disclosures. The project is a highly optimized, SEO-friendly static site built with **Astro**.
 
-<<<<<<< HEAD
-- 📄 6 Essential pages
-- 🎨 Highly customizable (Color, Font, Menu, Social Links, SEO Meta Tags, etc.)
-- ⚡ Fast by default (95+ Google PageSpeed Score)
-- 📝 Contact form support
-- 🖼️ Support OG image
-- 🎨 Built with Tailwind CSS framework
-- 📱 Fully responsive on desktops, tablets, and smartphones
-- 🔍 SEO Friendly
-
-## 📄 Available Pages:
-
-- 🏠 Home
-- 👤 About
-- 📞 Contact
-- 🚀 Amenities (Features)
-- 📜 Mandatory Disclosures
-- ⚠️ 404 (Not Found)
-
-=======
 ## 📌 Key Features
 
 - **🚀 High Performance:** Static site generation (SSG) ensures blazing fast load times (95+ Google PageSpeed Score).
@@ -47,7 +27,7 @@ This is the official website for **BAS International School** (Muddebihal), desi
 ## 📂 Site Structure & Pages
 
 The following pages are active and maintained:
->>>>>>> 10d726e2cd8b03f52d9635903a144d91de5821e5
+
 
 - **🏠 Home:** (`/`) - Landing page with banner, key features, services, and testimonials.
 - **👤 About Us:** (`/about`) - Information about the school's mission, vision, and gallery.

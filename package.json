@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "bas-school-astro",
-=======
-  "name": "think-unlimited-astro",
->>>>>>> 10d726e2cd8b03f52d9635903a144d91de5821e5
   "version": "3.1.0",
   "description": "Astro and Tailwindcss boilerplate",
   "author": "Think Unlimited",
