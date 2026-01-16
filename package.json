@@ -4,7 +4,6 @@
   "description": "Astro and Tailwindcss boilerplate",
   "author": "Think Unlimited",
   "license": "MIT",
-  "packageManager": "yarn@1.22.19",
   "type": "module",
   "scripts": {
     "dev": "astro dev",
@@ -20,7 +19,7 @@
     "@astrojs/rss": "^4.0.14",
     "@astrojs/sitemap": "^3.6.0",
     "aos": "^2.3.4",
-    "astro": "^5.16.6",
+    "astro": "5.12.3",
     "astro-auto-import": "^0.4.4",
     "astro-font": "^1.0.0",
     "date-fns": "^4.1.0",
